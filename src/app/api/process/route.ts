@@ -1,6 +1,6 @@
 import { cookies } from "next/headers";
 
-import { fetchData } from "@/common/lib/axios.functions";
+import { fetchData } from "@/api/lib/axiosFunctions";
 import { DynamicResponse } from "@/api/responses/dynamic.response";
 import {
   AddElementsIntoObject,
